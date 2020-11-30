@@ -8,7 +8,8 @@ return 1 - pow(1 - x, 4);
 }
 
 function setup(){
-	createCanvas(500,500);
+	createCanvas(windowWidth,windowHeight);
+	background(0)
 
 }
 
